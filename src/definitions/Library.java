@@ -17,5 +17,8 @@ public class Library {
         }
     }
 
+    public Library(Book[] stock) {
+        this.stock = stock;
+    }
 
 }
