@@ -21,4 +21,9 @@ public class Library {
         this.stock = stock;
     }
 
+    public Book[] getStock() {
+        return this.stock;
+    }
+
+
 }
