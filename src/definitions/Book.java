@@ -68,5 +68,13 @@ public class Book {
         this.nameOfTheBook = nameOfTheBook;
     }
 
+    /**
+     * This method returns the name of the author of the book.
+     *
+     * @return The name of author of the book.
+     */
 
+    public String getAuthorOfTheBook() {
+        return this.authorOfTheBook;
+    }
 }
