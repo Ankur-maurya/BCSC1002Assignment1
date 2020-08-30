@@ -25,5 +25,8 @@ public class Library {
         return this.stock;
     }
 
+    public void setStock(Book[] stock) {
+        this.stock = stock;
+    }
 
 }
