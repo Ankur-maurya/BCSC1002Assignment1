@@ -30,3 +30,14 @@ public class Book {
         fifteenDigitISBNNumberOfBook = "879524682145783";
 
     }
+
+    // 2. Parameterized constructor : it has some parameters.
+
+    public Book(String nameOfTheBook, String authorOfTheBook, String fifteenDigitISBNNumberOfBook) {
+        this.nameOfTheBook = nameOfTheBook;
+        this.authorOfTheBook = authorOfTheBook;
+        this.fifteenDigitISBNNumberOfBook = fifteenDigitISBNNumberOfBook;
+    }
+
+
+}
