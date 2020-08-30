@@ -6,6 +6,8 @@
  * */
 package definitions;
 
+import java.util.Objects;
+
 public class Book {
 
     //Components of a definition class in Java.
@@ -124,5 +126,20 @@ public class Book {
 
     }
 
+    //The equals() and hashcode() methods
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Book)) return false;
+        Book book = (Book) o;
+        return Objects.equals(getNameOfTheBook(), book.getNameOfTheBook()) &&
+                Objects.equals(getAuthorOfTheBook(), book.getAuthorOfTheBook()) &&
+                Objects.equals(getFifteenDigitISBNNumberOfBook(), book.getFifteenDigitISBNNumberOfBook());
+    }
 
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getNameOfTheBook(), getAuthorOfTheBook(), getFifteenDigitISBNNumberOfBook());
+    }
 }
