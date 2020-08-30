@@ -20,4 +20,13 @@ public class Book {
     private String authorOfTheBook;
     private String fifteenDigitISBNNumberOfBook;
 
-}
+    //Constructor Methods : used to initialise the values (fields) of an object.
+
+    // 1. Non-Parameterized constructor : it has no parameters.
+
+    public Book() {
+        nameOfTheBook = "Core Java Volume I--Fundamentals";
+        authorOfTheBook = "Cay S. Horstmann";
+        fifteenDigitISBNNumberOfBook = "879524682145783";
+
+    }
