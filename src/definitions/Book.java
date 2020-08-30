@@ -98,4 +98,31 @@ public class Book {
         return this.fifteenDigitISBNNumberOfBook;
     }
 
+
+    /**
+     * This method will change the ISBN number of book
+     *
+     * @param FifteenDigitISBNNumberOfBook ISBN number of the book that you want to given
+     */
+
+    public void setFifteenDigitISBNNumberOfBook(String FifteenDigitISBNNumberOfBook) {
+        this.fifteenDigitISBNNumberOfBook = FifteenDigitISBNNumberOfBook;
+    }
+
+    public void getData() {
+        System.out.println("Book Name: " + nameOfTheBook);
+    }
+
+    //The toString() method
+    @Override
+    public String toString() {
+        return "Book{" +
+                "nameOfBook='" + nameOfTheBook + '\'' +
+                ", authorOfBook='" + authorOfTheBook + '\'' +
+                ", thirteenDigitISBNNumberOfBook='" + fifteenDigitISBNNumberOfBook + '\'' +
+                '}';
+
+    }
+
+
 }
