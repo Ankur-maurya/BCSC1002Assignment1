@@ -28,4 +28,16 @@ public class Student {
                 }
         }
 
+        // 2. Parameterized constructor : it has some parameters.
+        public Student(String studentFirstName, String studentMiddleName, String studentLastName, long universityRollNumber, int numberOfBooksIssued, Book[] name) {
+                this.studentFirstName = studentFirstName;
+                this.studentMiddleName = studentMiddleName;
+                this.studentLastName = studentLastName;
+                this.universityRollNumber = universityRollNumber;
+                this.numberOfBooksIssued = numberOfBooksIssued;
+                this.name = new Book[3];
+                for (int index = 0; index < name.length; index++) {
+                        name[index] = new Book("Book " + (index + 1));
+                }
+        }
 }
