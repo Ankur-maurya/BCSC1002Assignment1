@@ -12,9 +12,14 @@ public class FrontDesk {
     private static final int SHOW_ME_ALL_MY_ISSUES_BOOKS = 3;
     private static final int EXIT = 4;
 
-
     public static void main(String[] args) {
+        Student currentlyInteractStudent;
+        Scanner scannerObject = new Scanner(System.in);
+        int studentInput;
 
+        Library libraryObject = new Library();
+        Student studentObject = new Student();
+        Book bookObject = new Book();
 
     }
 }
