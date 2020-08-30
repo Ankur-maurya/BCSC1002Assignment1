@@ -196,4 +196,12 @@ public class Student {
                         Arrays.equals(getName(), student.getName());
         }
 
+        @Override
+        public int hashCode() {
+                int result = Objects.hash(getStudentFirstName(), getStudentMiddleName(), getStudentLastName(), getUniversityRollNumber(), getNumberOfBooksIssued());
+                result = 31 * result + Arrays.hashCode(getName());
+                return result;
+        }
+}
+
 }
