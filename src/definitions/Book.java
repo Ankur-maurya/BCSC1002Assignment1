@@ -18,5 +18,6 @@ public class Book {
 
     private String nameOfTheBook;
     private String authorOfTheBook;
+    private String fifteenDigitISBNNumberOfBook;
 
 }
