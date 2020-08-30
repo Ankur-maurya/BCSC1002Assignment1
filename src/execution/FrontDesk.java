@@ -63,6 +63,13 @@ public class FrontDesk {
                     //myVideoStore.doReturn(videoName);
                     break;
 
+                default:
+            }
+        } while (studentInput != EXIT);
+        scannerObject.close();
+    }
+}
+
 
             }
-        }
+                    }
