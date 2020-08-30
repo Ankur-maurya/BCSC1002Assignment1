@@ -55,5 +55,18 @@ public class Book {
         return this.nameOfTheBook;
     }
 
+    //2. The setter method : used to write the value of a private field.
+    // Transformer methods / Mutator Methods
+
+    /**
+     * This method will change the book name
+     *
+     * @param nameOfTheBook The name of the book that you want to given
+     */
+
+    public void setNameOfTheBook(String nameOfTheBook) {
+        this.nameOfTheBook = nameOfTheBook;
+    }
+
 
 }
