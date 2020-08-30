@@ -169,4 +169,17 @@ public class Student {
                 this.name = name;
         }
 
+        //The toString() method
+        @Override
+        public String toString() {
+                return "Student{" +
+                        "studentFirstName='" + studentFirstName + '\'' +
+                        ", studentMiddleName='" + studentMiddleName + '\'' +
+                        ", studentLastName='" + studentLastName + '\'' +
+                        ", universityRollNumber=" + universityRollNumber +
+                        ", numberOfBooksIssued=" + numberOfBooksIssued +
+                        ", name=" + Arrays.toString(name) +
+                        '}';
+        }
+
 }
