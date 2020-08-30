@@ -69,4 +69,15 @@ public class Student {
         public void setStudentFirstName(String studentFirstName) {
                 this.studentFirstName = studentFirstName;
         }
+
+        /**
+         * This method returns the middle name of the student.
+         *
+         * @return The middle name of the student.
+         */
+
+        public String getStudentMiddleName() {
+                return this.studentMiddleName;
+        }
+
 }
