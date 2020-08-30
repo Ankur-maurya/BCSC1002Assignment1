@@ -80,4 +80,15 @@ public class Student {
                 return this.studentMiddleName;
         }
 
+        /**
+         * This method sets the middle name of student.
+         *
+         * @param studentMiddleName The middle name of the student that you want to set.
+         */
+
+        public void setStudentMiddleName(String studentMiddleName) {
+                this.studentMiddleName = studentMiddleName;
+        }
+
+
 }
