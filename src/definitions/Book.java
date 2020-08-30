@@ -77,4 +77,16 @@ public class Book {
     public String getAuthorOfTheBook() {
         return this.authorOfTheBook;
     }
+
+    /**
+     * This method will change the author name of book
+     *
+     * @param authorOfTheBook The author name of the book that you want to given
+     */
+
+    public void setAuthorOfTheBook(String authorOfTheBook) {
+        this.authorOfTheBook = authorOfTheBook;
+    }
+
+
 }
