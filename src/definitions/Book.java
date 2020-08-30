@@ -88,5 +88,14 @@ public class Book {
         this.authorOfTheBook = authorOfTheBook;
     }
 
+    /**
+     * This method returns the ISBN number of the book
+     *
+     * @return ISBN number of the book
+     */
+
+    public String getFifteenDigitISBNNumberOfBook() {
+        return this.fifteenDigitISBNNumberOfBook;
+    }
 
 }
