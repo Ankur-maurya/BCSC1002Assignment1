@@ -159,5 +159,14 @@ public class Student {
                 return this.name;
         }
 
+        /**
+         * This method sets the name of books issued by the student.
+         *
+         * @param name The name of books issued by the student that you want to given.
+         */
+
+        public void setName(Book[] name) {
+                this.name = name;
+        }
 
 }
