@@ -39,5 +39,21 @@ public class Book {
         this.fifteenDigitISBNNumberOfBook = fifteenDigitISBNNumberOfBook;
     }
 
+    public Book(String nameOfTheBook) {
+        this.nameOfTheBook = nameOfTheBook;
+    }
+
+    //1. The getter method : it is used to read the value of a private field.
+    // Observer methods / Accessor Methods
+
+    /**
+     * This method returns the name of the book.
+     *
+     * @return The name of the book.
+     */
+    public String getNameOfTheBook() {
+        return this.nameOfTheBook;
+    }
+
 
 }
