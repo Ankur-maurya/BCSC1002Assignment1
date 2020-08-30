@@ -48,5 +48,11 @@ public class Library {
         return Arrays.equals(getStock(), library.getStock());
     }
 
-
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(getStock());
+    }
 }
+
+
+
