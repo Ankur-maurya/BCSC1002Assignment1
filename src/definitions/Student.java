@@ -13,5 +13,19 @@ public class Student {
         private int numberOfBooksIssued;
         private Book[] name;
 
+        //Constructor Methods : used to initialise the values (fields) of an object.
+
+        // 1. Non-Parameterized constructor : it has no parameters.
+        public Student() {
+                studentFirstName = "Ankur";
+                studentMiddleName = "Kumar";
+                studentLastName = "Maurya";
+                universityRollNumber = 191500124;
+                numberOfBooksIssued = 3;
+                this.name = new Book[3];
+                for (int index = 0; index < name.length; index++) {
+                        name[index] = new Book("IssuedBook " + (index + 1));
+                }
+        }
 
 }
