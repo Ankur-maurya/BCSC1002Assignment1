@@ -182,4 +182,18 @@ public class Student {
                         '}';
         }
 
+        //The equals() and hashcode() methods
+        @Override
+        public boolean equals(Object o) {
+                if (this == o) return true;
+                if (!(o instanceof Student)) return false;
+                Student student = (Student) o;
+                return getUniversityRollNumber() == student.getUniversityRollNumber() &&
+                        getNumberOfBooksIssued() == student.getNumberOfBooksIssued() &&
+                        Objects.equals(getStudentFirstName(), student.getStudentFirstName()) &&
+                        Objects.equals(getStudentMiddleName(), student.getStudentMiddleName()) &&
+                        Objects.equals(getStudentLastName(), student.getStudentLastName()) &&
+                        Arrays.equals(getName(), student.getName());
+        }
+
 }
