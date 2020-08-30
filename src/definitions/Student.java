@@ -40,4 +40,33 @@ public class Student {
                         name[index] = new Book("Book " + (index + 1));
                 }
         }
+
+        public Student(String studentFirstName, String studentMiddleName, String studentLastName) {
+                this.studentFirstName = studentFirstName;
+                this.studentMiddleName = studentMiddleName;
+                this.studentLastName = studentLastName;
+        }
+
+
+        //add getter and setter methods to read and write the value of private fields respectively
+
+        /**
+         * This method returns the first name of the student.
+         *
+         * @return The first name of the student.
+         */
+
+        public String getStudentFirstName() {
+                return this.studentFirstName;
+        }
+
+        /**
+         * This method sets the first name of student.
+         *
+         * @param studentFirstName The first name of the student that you want to set.
+         */
+
+        public void setStudentFirstName(String studentFirstName) {
+                this.studentFirstName = studentFirstName;
+        }
 }
