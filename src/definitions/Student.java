@@ -6,6 +6,9 @@
  * */
 package definitions;
 
+import java.util.Arrays;
+import java.util.Objects;
+
 public class Student {
         Student studentObject = new Student();
         private String studentFirstName, studentMiddleName, studentLastName;
@@ -204,4 +207,4 @@ public class Student {
         }
 }
 
-}
+
