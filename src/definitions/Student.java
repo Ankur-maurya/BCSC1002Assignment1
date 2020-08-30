@@ -149,4 +149,15 @@ public class Student {
                 this.numberOfBooksIssued = numberOfBooksIssued;
         }
 
+        /**
+         * This method returns all the name of books issued by the student.
+         *
+         * @return All the name of books issued by the student.
+         */
+
+        public Book[] getName() {
+                return this.name;
+        }
+
+
 }
